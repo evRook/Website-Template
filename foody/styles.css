@@ -1,39 +1,64 @@
+* {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+}
+
 
 header {
+    height: 850px;
+    width: 1900px;
+    background-color: black;
+    background-image: url(/temp-imgs/3041.png);
+    background-size: 2010px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    border: 2px grey solid; 
+}
 
+.gradient-background {
+    height: 852px;
+    width: 1900px;
+    background-image: linear-gradient(to bottom right, #000937, rgba(0, 0, 0, 0));
 }
 
 .titlebar__container {
     display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     border: 1px black solid;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .title {
-    margin: 10px 0px 10px 50px;
-    color: black;
+    margin: 18px 0px 10px 200px;
+    font-weight: 100;
+    color: white;
 }
 
 .nav-bar {
     width: 100%;
     height: 50px;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .navlinks {
-    display: block;
+    display: inline-block;
     float: right;
-    text-align: center;
-    border: 1px black solid;
+    margin: 25px 0px 0px 0px;
     justify-content: space-between;
+    color:white;
+
+}
+
+.navlinks a:hover {
+    color:rgb(167, 167, 167);
 }
 
 .navlinks a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0px 15px 0px 15px;
 }
 
@@ -43,9 +68,11 @@ header {
 }
 
 .drop-btn {
-    margin: 15px 10px 0px 10px;
+    margin: 0px 15px 0px 10px;
+    height: 70px;
     border: none;
-    background-color: white;
+    color: white;
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
@@ -57,31 +84,35 @@ header {
 
 .drop-content a {
     text-decoration: none;
-    padding: 12px 16px;
-    color: black;
+    padding: 12px 52px;
+    color: white;
+}
+
+.drop-btn:hover {
+    color:rgb(167, 167, 167);
 }
 
 .dropdown:hover .drop-content{
     display: grid;
     left: unset;
     right: .8em;
-    transform: translateY(17px);
+    background-color: black;
     text-align: left;
-    border: 1px black solid;
 }
 
 .drop-content a:hover {
-    background-color: grey;
+    background-color: rgb(46, 46, 46);
 }
 
 .buynow {
     float: right;
     height: 28px;
-    width: 90px;
-    margin: 12px 15px 12px 0px;
+    width: 130px;
+    margin: 19px 150px 12px 0px;
     background-color: #4AAB00;
     border-radius: 4px;
     border: none;
+    z-index: 3;
 }
 
 .buynow a {
@@ -90,5 +121,30 @@ header {
 }
 
 .buynow:hover {
-    background-color:#419600
+    background-color:#4AAB00
+}
+
+.header__container {
+    border: 1px white solid;
+    color: white;
+    margin: 0;
+    height: 776px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__container div {
+    border: 1px white solid;
+
+}
+
+.header__container .box-2__span {
+    font-size: 42px;
+}
+
+.header__container .box-2 {
+    font-size: 16px;
+    margin: 0px 0px 0px 200px;
 }
