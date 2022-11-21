@@ -26,7 +26,7 @@ body {
 
 .gradient-background {
     height: 856px;
-    background-image: linear-gradient(to bottom right, #000937, #ffffff00);
+    background-image: url(/temp-imgs/Group\ 21.png);
 }
 
 
@@ -238,4 +238,57 @@ body {
 .article-1__img {
     height: 750px;
     width: 800px;
+}
+
+.article-2__container {
+    background-image: url(/temp-imgs/BACKGROUND\ IMAGE\ Image.png);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 800px;
+}
+
+.article-2--title {
+    color: #4AAB00;
+    padding: 125px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 62px;
+}
+
+.article-2--txt {
+    color: #FFFFFF;
+    padding: 20px 500px 50px 500px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.article-2__container--img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 333px;
+    width: 1140px;
+    margin-bottom: 100px;
+}
+
+.article-2__container--img div {
+    border: 2px grey solid;
+    display: flex;
+    height: 288px;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.article-2--box1, .article-2--box2, .article-2--box3, .article-2--box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.article-2--box1 p, .article-2--box2 p, .article-2--box3 p, .article-2--box4 p {
+    margin: 25px 0px 15px 0px;
+    font-size: 20px;
 }
