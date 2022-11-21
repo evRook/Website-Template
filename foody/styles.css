@@ -15,13 +15,12 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
-    border: 2px grey solid; 
 }
 
 .gradient-background {
     height: 852px;
     width: 1900px;
-    background-image: linear-gradient(to bottom right, #000937, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom right, #000937ca, rgba(0, 0, 0, 0));
 }
 
 .titlebar__container {
@@ -121,11 +120,10 @@ header {
 }
 
 .buynow:hover {
-    background-color:#4AAB00
+    background-color:#449d00
 }
 
 .header__container {
-    border: 1px white solid;
     color: white;
     margin: 0;
     height: 776px;
@@ -135,16 +133,40 @@ header {
     justify-content: space-between;
 }
 
-.header__container div {
-    border: 1px white solid;
-
+.header__container .box-2__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin: 0px 0px 18px 0px;
 }
 
-.header__container .box-2__span {
-    font-size: 42px;
+.box-2__txt {
+    font-size: 17px;
+    padding: 0px 30px 0px 0px;
+}
+
+.box-2__btn {
+    background-color: #4AAB00;
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-2__btn a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.box-2__btn:hover {
+    background-color:#449d00
 }
 
 .header__container .box-2 {
     font-size: 16px;
     margin: 0px 0px 0px 200px;
 }
+
